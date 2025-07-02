@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f2937;
+}
+
+.img-container{
+    height: 75px;
+    margin-right: auto;
+}
+
+.header-logo{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.header-links{
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
