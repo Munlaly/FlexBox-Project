@@ -77,6 +77,8 @@ nav{
     background-color: #3882f6;
     border-radius: 8px;
     width: 75px;
+    border:none;
+    padding: 5px;
 }
 
  .section1 .img-container{
