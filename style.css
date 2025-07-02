@@ -146,11 +146,42 @@ nav{
     justify-content: center;
 }
 
-.section3 .quote .quote--text{
+.section3 .quote .quote-text{
     font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .section3 .quote .author{
     align-self: flex-end;
     font-weight: bold;
+}
+
+.section4{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section4 .content{
+    padding: 20px;
+    background-color:#3882f6 ;
+    border-radius: 6px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section4 .content p{
+    color: #f9faf8;
+}
+.section4 .content .hire{
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    padding: 10px;
+    color: #e5e7eb;
 }
