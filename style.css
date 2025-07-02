@@ -64,7 +64,7 @@ nav{
 }
 
  .section1 .content-left{
-    
+    flex-shrink: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,7 +80,7 @@ nav{
 }
 
  .section1 .img-container{
-   
+   flex-shrink: 1;
     height: 200px;
  }
 .main-text{
@@ -111,6 +111,10 @@ nav{
     font-size: 36px;
 }
 
+.section2 .problematic-description{
+    margin-left: -35%;
+    margin-top: -2.5%
+}
 .section2 .images{
     display: flex;
     flex-direction: row;
@@ -124,9 +128,11 @@ nav{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    flex-shrink: 1;
 }
 
 .section2 .images .container .img-container{
+    flex-shrink: 1;
     height: 100px;
     width: 100px;
 }
