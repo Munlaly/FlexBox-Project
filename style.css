@@ -114,7 +114,7 @@ nav{
     flex-direction: row;
     justify-content: center;
     gap: 50px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .section2 .images .container{
@@ -132,4 +132,25 @@ nav{
     height: 100%;
     width: auto;
     object-fit: contain;
+}
+
+.section3 {
+    padding: 20px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+.section3 .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section3 .quote .quote--text{
+    font-size: 20px;
+}
+
+.section3 .quote .author{
+    align-self: flex-end;
+    font-weight: bold;
 }
